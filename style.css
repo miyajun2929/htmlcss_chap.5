@@ -30,8 +30,8 @@
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
-  background-color: red;
-  /* 概要把握のため、背景色を着色 */
+  /* 答え合わせ：margin: 50 auto;で上下の余白は設定する */
+  /* その方が、box1-4,9にて設定する必要がなくなるため、記述が減る */
 }
 
 .box1 {
@@ -115,6 +115,7 @@ footer {
   height: 120px;
   text-align: center;
   line-height: 120px;
+  /* line-heightは上下の中央揃え。親要素の高さと値を揃えることで上下中央揃えとなる */
   background-color: gray;
 }
 
